@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <title>TASK3 || MUSIC WEBAPP</title>
+</head>
+<body>
+    
+    <div class="container ">
+        <div class="top">
+            <i class="fa-solid fa-bars menu-bar"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="cover-img"></div>
+        <div class="music-body"></div>
+
+        <div class="list-wrapper">
+            <table class="list" id="playlist">
+                <!-- List 5 -->
+                <tr class="songs">
+                    <td class="no">
+                        <h5>1</h5>
+                    </td>
+                    <td class="title">
+                        <h6>Song title</h6>
+                    </td>
+                    <td class="length">
+                        <h6>2:03</h6>
+                    </td>
+                    <td >
+                        <i class="fa-solid fa-heart"></i>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Progress bar -->
+        <div class="bar">
+            <div class="dot"></div>
+            <div class="time">
+                <h5 class="current-time">0:00</h5>
+                <h5 class="duration">0:00</h5>
+            </div>
+        </div>
+        <!-- Information -->
+        <div class="info">
+            <h2>Song Title</h2>
+            <h3>Artist</h3>
+        </div>
+        <!-- Controls -->
+        <div class="controls">
+            <i class="fa-solid fa-backward" id="prev"></i>
+            <i class="fa-solid fa-play" id="play-pause"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="more-controls">
+            <i class="fa-solid fa-heart" id="current-favorites"></i>
+            <i class="fa-solid fa-shuffle" id="shuffle"></i>
+            <i class="fa-solid fa-repeat" id="repeat"></i>
+            <i class="fa-solid fa-gear" id="options"></i>
+        </div>
+        <!-- Current song -->
+        <div class="current-song-title">Song Title</div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
